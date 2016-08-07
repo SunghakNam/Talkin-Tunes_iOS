@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					06D351321D56323E00E5E80D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E68KPT4972;
 					};
 					06D351461D56323E00E5E80D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -401,10 +402,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Alpha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.Alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Alpha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.Alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +491,7 @@
 				06D3515D1D56323E00E5E80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06D3515E1D56323F00E5E80D /* Build configuration list for PBXNativeTarget "AlphaTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +500,7 @@
 				06D351601D56323F00E5E80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06D351611D56323F00E5E80D /* Build configuration list for PBXNativeTarget "AlphaUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +509,7 @@
 				06D351631D56323F00E5E80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
