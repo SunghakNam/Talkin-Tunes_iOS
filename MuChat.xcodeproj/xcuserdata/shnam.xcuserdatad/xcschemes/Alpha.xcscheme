@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06D351321D56323E00E5E80D"
-               BuildableName = "Alpha.app"
-               BlueprintName = "Alpha"
-               ReferencedContainer = "container:Alpha.xcodeproj">
+               BuildableName = "MuChat.app"
+               BlueprintName = "MuChat"
+               ReferencedContainer = "container:MuChat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06D351461D56323E00E5E80D"
-               BuildableName = "AlphaTests.xctest"
-               BlueprintName = "AlphaTests"
-               ReferencedContainer = "container:Alpha.xcodeproj">
+               BuildableName = "MuChat.xctest"
+               BlueprintName = "MuChatTests"
+               ReferencedContainer = "container:MuChat.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06D351511D56323E00E5E80D"
-               BuildableName = "AlphaUITests.xctest"
-               BlueprintName = "AlphaUITests"
-               ReferencedContainer = "container:Alpha.xcodeproj">
+               BuildableName = "MuChat.xctest"
+               BlueprintName = "MuChatUITests"
+               ReferencedContainer = "container:MuChat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06D351321D56323E00E5E80D"
-            BuildableName = "Alpha.app"
-            BlueprintName = "Alpha"
-            ReferencedContainer = "container:Alpha.xcodeproj">
+            BuildableName = "MuChat.app"
+            BlueprintName = "MuChat"
+            ReferencedContainer = "container:MuChat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06D351321D56323E00E5E80D"
-            BuildableName = "Alpha.app"
-            BlueprintName = "Alpha"
-            ReferencedContainer = "container:Alpha.xcodeproj">
+            BuildableName = "MuChat.app"
+            BlueprintName = "MuChat"
+            ReferencedContainer = "container:MuChat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06D351321D56323E00E5E80D"
-            BuildableName = "Alpha.app"
-            BlueprintName = "Alpha"
-            ReferencedContainer = "container:Alpha.xcodeproj">
+            BuildableName = "MuChat.app"
+            BlueprintName = "MuChat"
+            ReferencedContainer = "container:MuChat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

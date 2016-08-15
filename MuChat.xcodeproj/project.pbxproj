@@ -33,16 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D351331D56323E00E5E80D /* Alpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D351331D56323E00E5E80D /* MuChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D351361D56323E00E5E80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06D351381D56323E00E5E80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06D3513B1D56323E00E5E80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D3513D1D56323E00E5E80D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D351421D56323E00E5E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06D351471D56323E00E5E80D /* AlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D351471D56323E00E5E80D /* MuChat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuChat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D3514B1D56323E00E5E80D /* AlphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaTests.swift; sourceTree = "<group>"; };
 		06D3514D1D56323E00E5E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06D351521D56323E00E5E80D /* AlphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D351521D56323E00E5E80D /* MuChat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuChat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D351561D56323E00E5E80D /* AlphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaUITests.swift; sourceTree = "<group>"; };
 		06D351581D56323E00E5E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,9 +85,9 @@
 		06D351341D56323E00E5E80D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06D351331D56323E00E5E80D /* Alpha.app */,
-				06D351471D56323E00E5E80D /* AlphaTests.xctest */,
-				06D351521D56323E00E5E80D /* AlphaUITests.xctest */,
+				06D351331D56323E00E5E80D /* MuChat.app */,
+				06D351471D56323E00E5E80D /* MuChat.xctest */,
+				06D351521D56323E00E5E80D /* MuChat.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06D351321D56323E00E5E80D /* Alpha */ = {
+		06D351321D56323E00E5E80D /* MuChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06D3515B1D56323E00E5E80D /* Build configuration list for PBXNativeTarget "Alpha" */;
+			buildConfigurationList = 06D3515B1D56323E00E5E80D /* Build configuration list for PBXNativeTarget "MuChat" */;
 			buildPhases = (
 				06D3512F1D56323E00E5E80D /* Sources */,
 				06D351301D56323E00E5E80D /* Frameworks */,
@@ -137,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = Alpha;
+			name = MuChat;
 			productName = Alpha;
-			productReference = 06D351331D56323E00E5E80D /* Alpha.app */;
+			productReference = 06D351331D56323E00E5E80D /* MuChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06D351461D56323E00E5E80D /* AlphaTests */ = {
+		06D351461D56323E00E5E80D /* MuChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06D3515E1D56323F00E5E80D /* Build configuration list for PBXNativeTarget "AlphaTests" */;
+			buildConfigurationList = 06D3515E1D56323F00E5E80D /* Build configuration list for PBXNativeTarget "MuChatTests" */;
 			buildPhases = (
 				06D351431D56323E00E5E80D /* Sources */,
 				06D351441D56323E00E5E80D /* Frameworks */,
@@ -155,14 +155,14 @@
 			dependencies = (
 				06D351491D56323E00E5E80D /* PBXTargetDependency */,
 			);
-			name = AlphaTests;
+			name = MuChatTests;
 			productName = AlphaTests;
-			productReference = 06D351471D56323E00E5E80D /* AlphaTests.xctest */;
+			productReference = 06D351471D56323E00E5E80D /* MuChat.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		06D351511D56323E00E5E80D /* AlphaUITests */ = {
+		06D351511D56323E00E5E80D /* MuChatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06D351611D56323F00E5E80D /* Build configuration list for PBXNativeTarget "AlphaUITests" */;
+			buildConfigurationList = 06D351611D56323F00E5E80D /* Build configuration list for PBXNativeTarget "MuChatUITests" */;
 			buildPhases = (
 				06D3514E1D56323E00E5E80D /* Sources */,
 				06D3514F1D56323E00E5E80D /* Frameworks */,
@@ -173,9 +173,9 @@
 			dependencies = (
 				06D351541D56323E00E5E80D /* PBXTargetDependency */,
 			);
-			name = AlphaUITests;
+			name = MuChatUITests;
 			productName = AlphaUITests;
-			productReference = 06D351521D56323E00E5E80D /* AlphaUITests.xctest */;
+			productReference = 06D351521D56323E00E5E80D /* MuChat.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06D3512E1D56323E00E5E80D /* Build configuration list for PBXProject "Alpha" */;
+			buildConfigurationList = 06D3512E1D56323E00E5E80D /* Build configuration list for PBXProject "MuChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,9 +215,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06D351321D56323E00E5E80D /* Alpha */,
-				06D351461D56323E00E5E80D /* AlphaTests */,
-				06D351511D56323E00E5E80D /* AlphaUITests */,
+				06D351321D56323E00E5E80D /* MuChat */,
+				06D351461D56323E00E5E80D /* MuChatTests */,
+				06D351511D56323E00E5E80D /* MuChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,12 +279,12 @@
 /* Begin PBXTargetDependency section */
 		06D351491D56323E00E5E80D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06D351321D56323E00E5E80D /* Alpha */;
+			target = 06D351321D56323E00E5E80D /* MuChat */;
 			targetProxy = 06D351481D56323E00E5E80D /* PBXContainerItemProxy */;
 		};
 		06D351541D56323E00E5E80D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06D351321D56323E00E5E80D /* Alpha */;
+			target = 06D351321D56323E00E5E80D /* MuChat */;
 			targetProxy = 06D351531D56323E00E5E80D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -396,7 +396,7 @@
 				INFOPLIST_FILE = Alpha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.Alpha;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MuChat;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -412,7 +412,7 @@
 				INFOPLIST_FILE = Alpha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.Alpha;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MuChat;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -425,8 +425,8 @@
 				INFOPLIST_FILE = AlphaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.AlphaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha.app/Alpha";
+				PRODUCT_NAME = MuChat;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuChat.app/MuChat";
 			};
 			name = Debug;
 		};
@@ -437,8 +437,8 @@
 				INFOPLIST_FILE = AlphaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.AlphaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alpha.app/Alpha";
+				PRODUCT_NAME = MuChat;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuChat.app/MuChat";
 			};
 			name = Release;
 		};
@@ -448,7 +448,7 @@
 				INFOPLIST_FILE = AlphaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.AlphaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MuChat;
 				TEST_TARGET_NAME = Alpha;
 			};
 			name = Debug;
@@ -459,7 +459,7 @@
 				INFOPLIST_FILE = AlphaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.AlphaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MuChat;
 				TEST_TARGET_NAME = Alpha;
 			};
 			name = Release;
@@ -467,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06D3512E1D56323E00E5E80D /* Build configuration list for PBXProject "Alpha" */ = {
+		06D3512E1D56323E00E5E80D /* Build configuration list for PBXProject "MuChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06D351591D56323E00E5E80D /* Debug */,
@@ -476,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06D3515B1D56323E00E5E80D /* Build configuration list for PBXNativeTarget "Alpha" */ = {
+		06D3515B1D56323E00E5E80D /* Build configuration list for PBXNativeTarget "MuChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06D3515C1D56323E00E5E80D /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06D3515E1D56323F00E5E80D /* Build configuration list for PBXNativeTarget "AlphaTests" */ = {
+		06D3515E1D56323F00E5E80D /* Build configuration list for PBXNativeTarget "MuChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06D3515F1D56323F00E5E80D /* Debug */,
@@ -494,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06D351611D56323F00E5E80D /* Build configuration list for PBXNativeTarget "AlphaUITests" */ = {
+		06D351611D56323F00E5E80D /* Build configuration list for PBXNativeTarget "MuChatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06D351621D56323F00E5E80D /* Debug */,

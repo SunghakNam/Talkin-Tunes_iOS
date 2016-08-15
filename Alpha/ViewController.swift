@@ -34,4 +34,22 @@ class ViewController: UIViewController, UIWebViewDelegate {
         frame.size.height = UIScreen.mainScreen().bounds.height;
         webView.frame = frame;
     }
+    
+    func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        NSLog((request.URL?.absoluteString)!)
+        if (request.URL?.absoluteString.hasPrefix(("iosfunction://")) == true){
+            let Tmp = request.URL!.absoluteString.componentsSeparatedByString("iosfunction://")[1]
+            native_alert(Tmp);
+            return true;
+        }
+        return true;
+    }
+    func native_alert(alert: String!){
+        let title = alert.componentsSeparatedByString("/")[0];
+        let msg = alert.componentsSeparatedByString("/")[1].stringByReplacingPercentEscapesUsingEncoding(NSUTF8StringEncoding);
+        let alertController = UIAlertController(title: title, message: msg, preferredStyle: UIAlertControllerStyle.Alert)
+        alertController.addAction(UIAlertAction(title: "Done", style: UIAlertActionStyle.Default,handler: nil))
+        
+        self.presentViewController(alertController, animated: true, completion: nil)
+    }
 }
