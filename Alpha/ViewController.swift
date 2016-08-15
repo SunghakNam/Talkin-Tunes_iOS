@@ -14,7 +14,7 @@ class ViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL (string: "http://54.83.143.33:8080/");
+        let url = NSURL (string: "http://shnam.com");
         let requestObj = NSURLRequest(URL: url!);
         webView.delegate=self;
         webView.loadRequest(requestObj);

@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,33 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O5R-jS-2yP">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="O5R-jS-2yP">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="603"/>
                                 <subviews>
-                                    <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IK1-4J-2FN">
+                                    <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IK1-4J-2FN">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="603"/>
                                         <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                                     </webView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="IK1-4J-2FN" firstAttribute="top" secondItem="O5R-jS-2yP" secondAttribute="top" constant="20" id="bF4-C0-Zs2"/>
-                                    <constraint firstItem="IK1-4J-2FN" firstAttribute="top" secondItem="O5R-jS-2yP" secondAttribute="top" constant="30" id="n7Y-gL-vwY"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="bF4-C0-Zs2"/>
-                                        <exclude reference="n7Y-gL-vwY"/>
-                                    </mask>
-                                </variation>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="O5R-jS-2yP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1tj-H0-u5G"/>
-                            <constraint firstItem="O5R-jS-2yP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Biz-FW-2Tz"/>
-                            <constraint firstAttribute="trailing" secondItem="O5R-jS-2yP" secondAttribute="trailing" id="rgy-SW-vxw"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="O5R-jS-2yP" secondAttribute="bottom" constant="-3" id="vyV-lA-F9h"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="webView" destination="IK1-4J-2FN" id="bI0-1g-Chw"/>

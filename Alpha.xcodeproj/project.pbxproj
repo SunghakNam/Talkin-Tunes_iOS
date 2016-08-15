@@ -11,7 +11,6 @@
 		06D351391D56323E00E5E80D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D351381D56323E00E5E80D /* ViewController.swift */; };
 		06D3513C1D56323E00E5E80D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D3513A1D56323E00E5E80D /* Main.storyboard */; };
 		06D3513E1D56323E00E5E80D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D3513D1D56323E00E5E80D /* Assets.xcassets */; };
-		06D351411D56323E00E5E80D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D3513F1D56323E00E5E80D /* LaunchScreen.storyboard */; };
 		06D3514C1D56323E00E5E80D /* AlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D3514B1D56323E00E5E80D /* AlphaTests.swift */; };
 		06D351571D56323E00E5E80D /* AlphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D351561D56323E00E5E80D /* AlphaUITests.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		06D351381D56323E00E5E80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		06D3513B1D56323E00E5E80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D3513D1D56323E00E5E80D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		06D351401D56323E00E5E80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06D351421D56323E00E5E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06D351471D56323E00E5E80D /* AlphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D3514B1D56323E00E5E80D /* AlphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaTests.swift; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 				06D351381D56323E00E5E80D /* ViewController.swift */,
 				06D3513A1D56323E00E5E80D /* Main.storyboard */,
 				06D3513D1D56323E00E5E80D /* Assets.xcassets */,
-				06D3513F1D56323E00E5E80D /* LaunchScreen.storyboard */,
 				06D351421D56323E00E5E80D /* Info.plist */,
 			);
 			path = Alpha;
@@ -230,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D351411D56323E00E5E80D /* LaunchScreen.storyboard in Resources */,
 				06D3513E1D56323E00E5E80D /* Assets.xcassets in Resources */,
 				06D3513C1D56323E00E5E80D /* Main.storyboard in Resources */,
 			);
@@ -300,14 +296,6 @@
 				06D3513B1D56323E00E5E80D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		06D3513F1D56323E00E5E80D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				06D351401D56323E00E5E80D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -402,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Alpha/Info.plist;
@@ -409,6 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.Alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Alpha/Info.plist;
@@ -423,6 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sunghak.Alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
